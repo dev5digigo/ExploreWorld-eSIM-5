@@ -37,7 +37,7 @@ class LoginVc: UIViewController {
         print("Button tapped")
     }
     
-    var flagHide = false
+    var flagHide = true
     
 
     override func viewDidLoad() {
@@ -57,14 +57,14 @@ class LoginVc: UIViewController {
     
     @IBAction func btnPassHideAction(_ sender: Any) {
         
-        if flagHide == false {
+        if flagHide == true {
             btnPassHide.setImage(UIImage(named: "Ic_hide"), for: .normal)
-            flagHide = true
-            txtPass.isSecureTextEntry = false // Change to txtPass
-        } else {
-            btnPassHide.setImage(UIImage(named: "Ic_unhide"), for: .normal)
             flagHide = false
             txtPass.isSecureTextEntry = true // Change to txtPass
+        } else {
+            btnPassHide.setImage(UIImage(named: "Ic_unhide"), for: .normal)
+            flagHide = true
+            txtPass.isSecureTextEntry = false // Change to txtPass
         }
     }
 

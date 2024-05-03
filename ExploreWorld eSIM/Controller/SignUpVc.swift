@@ -26,6 +26,11 @@ class SignUpVc: UIViewController {
         super.viewDidLoad()
         
         setData()
+        
+        txtName.setLeftImage(UIImage(named: "Ic_user")!)
+        txtPass.setLeftImage(UIImage(named: "Ic_pass")!)
+        txtNumber.setLeftImage(UIImage(named: "Ic_number")!)
+
 
         // Do any additional setup after loading the view.
     }

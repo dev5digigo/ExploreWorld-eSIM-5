@@ -23,7 +23,7 @@
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ium-9K-WUe">
                                         <rect key="frame" x="0.0" y="170" width="393" height="682"/>
                                         <subviews>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AVLogo" translatesAutoresizingMaskIntoConstraints="NO" id="MXN-37-zgP">
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Ic_company" translatesAutoresizingMaskIntoConstraints="NO" id="MXN-37-zgP">
                                                 <rect key="frame" x="78" y="8" width="254" height="93"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="93" id="60M-wW-kcP"/>
@@ -63,7 +63,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2T-dP-g2k">
                                                 <rect key="frame" x="341.66666666666669" y="237.66666666666669" width="21.333333333333314" height="22"/>
                                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" image="ic_hide"/>
+                                                <state key="normal" image="Ic_hide"/>
                                                 <connections>
                                                     <action selector="btnPassHideAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DJC-GT-CDv"/>
                                                 </connections>
@@ -111,7 +111,7 @@
                                                 <state key="normal" image="Ic_apple"/>
                                             </button>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Don't Have An Account ?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZA-df-cnG">
-                                                <rect key="frame" x="78" y="619" width="170" height="55"/>
+                                                <rect key="frame" x="78" y="619" width="170" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="170" id="DlP-04-fJV"/>
                                                 </constraints>
@@ -120,7 +120,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZRJ-y2-Q64">
-                                                <rect key="frame" x="234" y="619" width="80" height="55"/>
+                                                <rect key="frame" x="234" y="619" width="80" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="80" id="cjt-lE-Xyg"/>
                                                 </constraints>
@@ -347,67 +347,20 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZiY-YZ-KGs">
-                                                <rect key="frame" x="166" y="504" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="60" id="0FT-Bf-IVU"/>
-                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="dlc-dt-PxY"/>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="ef8-b8-3XK"/>
-                                                    <constraint firstAttribute="height" constant="60" id="ezX-4T-hDV"/>
-                                                </constraints>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" image="Ic_google"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rdq-K7-9Co">
-                                                <rect key="frame" x="246" y="504" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="DD3-GR-caQ"/>
-                                                    <constraint firstAttribute="height" constant="60" id="JYU-wB-laP"/>
-                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="60" id="N8Y-pS-KLQ"/>
-                                                    <constraint firstAttribute="width" constant="60" id="ZMy-Qz-HOo"/>
-                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="m7U-on-SVx"/>
-                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="yVH-4f-Z8z"/>
-                                                </constraints>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" image="Ic_apple"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMy-D1-h0A">
-                                                <rect key="frame" x="86" y="504" width="60" height="60"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="60" id="Hqr-vV-bLo"/>
-                                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="60" id="I6s-Hn-0Sz"/>
-                                                    <constraint firstAttribute="width" constant="60" id="LSH-3x-eyi"/>
-                                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="60" id="Sfu-zb-VN2"/>
-                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="o8E-4X-woQ"/>
-                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="oVh-mi-38q"/>
-                                                </constraints>
-                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                                <state key="normal" image="Ic_facebook"/>
-                                            </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oAR-6m-gpS">
-                                                <rect key="frame" x="246" y="612" width="64" height="21"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="21" id="GNg-Z2-DEq"/>
-                                                    <constraint firstAttribute="width" constant="64" id="IUS-zj-PLI"/>
-                                                </constraints>
+                                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oAR-6m-gpS">
+                                                <rect key="frame" x="236" y="612" width="80" height="21"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <color key="tintColor" name="BgcolourBlue"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" title="Login">
                                                     <fontDescription key="titleFontDescription" type="system" weight="heavy" pointSize="14"/>
                                                 </buttonConfiguration>
-                                                <connections>
-                                                    <segue destination="BYZ-38-t0r" kind="show" id="Wqv-0E-7Ai"/>
-                                                </connections>
                                             </button>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="Rdq-K7-9Co" firstAttribute="leading" secondItem="ZiY-YZ-KGs" secondAttribute="trailing" constant="20" id="1vz-ts-s5G"/>
-                                            <constraint firstItem="ZiY-YZ-KGs" firstAttribute="top" secondItem="nN0-dp-dDT" secondAttribute="bottom" constant="27" id="5dM-41-XHJ"/>
-                                            <constraint firstItem="Rdq-K7-9Co" firstAttribute="top" secondItem="dvE-6n-cP4" secondAttribute="bottom" constant="72" id="74e-lA-usd"/>
                                             <constraint firstItem="MTB-2g-ewX" firstAttribute="trailing" secondItem="3S1-1B-fLJ" secondAttribute="trailing" id="7bG-cd-K6z"/>
                                             <constraint firstItem="fqN-yO-gnc" firstAttribute="leading" secondItem="Jqo-Yo-1zk" secondAttribute="leading" constant="35" id="843-WK-fWR"/>
-                                            <constraint firstAttribute="trailing" secondItem="ZiY-YZ-KGs" secondAttribute="trailing" constant="167" id="AGt-se-ebf"/>
                                             <constraint firstItem="dvE-6n-cP4" firstAttribute="top" secondItem="SZF-tr-D0G" secondAttribute="bottom" constant="22.670000000000002" id="D2T-XG-SAI"/>
                                             <constraint firstAttribute="trailing" secondItem="dvE-6n-cP4" secondAttribute="trailing" constant="20" symbolic="YES" id="F48-SZ-f6S"/>
                                             <constraint firstItem="fqN-yO-gnc" firstAttribute="centerX" secondItem="MTB-2g-ewX" secondAttribute="centerX" id="Hih-I4-b2U"/>
@@ -420,20 +373,14 @@
                                             <constraint firstItem="fqN-yO-gnc" firstAttribute="top" secondItem="Jqo-Yo-1zk" secondAttribute="top" constant="38" id="eMM-co-LVm"/>
                                             <constraint firstItem="MTB-2g-ewX" firstAttribute="leading" secondItem="3S1-1B-fLJ" secondAttribute="leading" id="eQk-Cd-vGV"/>
                                             <constraint firstItem="3S1-1B-fLJ" firstAttribute="leading" secondItem="VPO-V6-KVk" secondAttribute="leading" id="eWF-Yo-rKl"/>
-                                            <constraint firstItem="KMy-D1-h0A" firstAttribute="top" secondItem="dvE-6n-cP4" secondAttribute="bottom" constant="72" id="hBI-er-f9r"/>
                                             <constraint firstItem="dvE-6n-cP4" firstAttribute="leading" secondItem="Jqo-Yo-1zk" secondAttribute="leading" constant="20" symbolic="YES" id="huD-ev-9To"/>
                                             <constraint firstItem="3S1-1B-fLJ" firstAttribute="trailing" secondItem="VPO-V6-KVk" secondAttribute="trailing" id="i5W-IA-qIc"/>
                                             <constraint firstItem="fqN-yO-gnc" firstAttribute="centerX" secondItem="Jqo-Yo-1zk" secondAttribute="centerX" id="jbS-0H-kTI"/>
                                             <constraint firstItem="nN0-dp-dDT" firstAttribute="leading" secondItem="Jqo-Yo-1zk" secondAttribute="leading" constant="149" id="l7a-lD-8nm"/>
-                                            <constraint firstItem="ZiY-YZ-KGs" firstAttribute="leading" secondItem="Jqo-Yo-1zk" secondAttribute="leading" constant="166" id="nRw-q0-fEU"/>
-                                            <constraint firstAttribute="trailing" secondItem="oAR-6m-gpS" secondAttribute="trailing" constant="83" id="nXm-B1-hMp"/>
                                             <constraint firstItem="SZF-tr-D0G" firstAttribute="top" secondItem="VPO-V6-KVk" secondAttribute="bottom" constant="15" id="pga-2Q-Kti"/>
-                                            <constraint firstItem="ZiY-YZ-KGs" firstAttribute="leading" secondItem="KMy-D1-h0A" secondAttribute="trailing" constant="20" id="poT-kL-yoM"/>
-                                            <constraint firstAttribute="bottom" secondItem="oAR-6m-gpS" secondAttribute="bottom" constant="49" id="qps-jJ-j6P"/>
                                             <constraint firstItem="cOZ-f7-Zqy" firstAttribute="leading" secondItem="Jqo-Yo-1zk" secondAttribute="leading" constant="78" id="tfu-q8-Yev"/>
                                             <constraint firstItem="MTB-2g-ewX" firstAttribute="leading" secondItem="Jqo-Yo-1zk" secondAttribute="leading" constant="20" id="tmP-6i-F9R"/>
                                             <constraint firstAttribute="trailing" secondItem="nN0-dp-dDT" secondAttribute="trailing" constant="149" id="viG-fa-0YO"/>
-                                            <constraint firstItem="cOZ-f7-Zqy" firstAttribute="top" secondItem="ZiY-YZ-KGs" secondAttribute="bottom" constant="48" id="wEz-NS-bKA"/>
                                         </constraints>
                                     </view>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Create Your Account" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PBS-Ye-Wm4">
@@ -485,11 +432,11 @@
         </scene>
     </scenes>
     <resources>
-        <image name="AVLogo" width="371" height="70"/>
         <image name="Ic_apple" width="85.333335876464844" height="85.333335876464844"/>
+        <image name="Ic_company" width="371" height="70"/>
         <image name="Ic_facebook" width="85.333335876464844" height="85.333335876464844"/>
         <image name="Ic_google" width="85.333335876464844" height="85.333335876464844"/>
-        <image name="ic_hide" width="21.333333969116211" height="21.333333969116211"/>
+        <image name="Ic_hide" width="21.333333969116211" height="21.333333969116211"/>
         <namedColor name="BgcolourBlue">
             <color red="0.023529411764705882" green="0.031372549019607843" blue="0.43529411764705883" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
