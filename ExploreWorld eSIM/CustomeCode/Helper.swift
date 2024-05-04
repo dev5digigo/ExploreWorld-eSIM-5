@@ -17,6 +17,12 @@ extension UIViewController{
         txt.clipsToBounds = true
        
     }
+    func setlblDesign(lbl: UILabel) {
+        lbl.layer.cornerRadius = lbl.frame.height/2
+        lbl.clipsToBounds = true
+        lbl.layer.borderWidth = 2
+        lbl.layer.borderColor = UIColor.borderColour2.cgColor
+    }
     
     func setbtnDesign(btn: UIButton) {
         btn.layer.cornerRadius = btn.frame.height/2
@@ -30,6 +36,15 @@ extension UIViewController{
         btn.layer.borderWidth = 1
         btn.layer.borderColor = UIColor.borderColour.cgColor
        
+    }
+    
+    func setRoundViewBtn(viewbtn: UIView) {
+        viewbtn.layer.cornerRadius = viewbtn.frame.height/2
+        viewbtn.clipsToBounds = true
+        viewbtn.layer.borderWidth = 1
+        viewbtn.layer.borderColor = UIColor.borderColour.cgColor
+        
+
     }
 
 }

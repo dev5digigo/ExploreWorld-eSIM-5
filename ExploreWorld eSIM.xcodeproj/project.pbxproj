@@ -17,7 +17,9 @@
 		BD01A57E2BE428F30045DE4E /* ExploreWorld_eSIMUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01A57D2BE428F30045DE4E /* ExploreWorld_eSIMUITestsLaunchTests.swift */; };
 		BD01A58E2BE429A00045DE4E /* LoginVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01A58D2BE429A00045DE4E /* LoginVc.swift */; };
 		BD01A5902BE430900045DE4E /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01A58F2BE430900045DE4E /* Helper.swift */; };
-		BD01A5922BE441D80045DE4E /* SignUpVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01A5912BE441D80045DE4E /* SignUpVc.swift */; };
+		BD7210132BE5B62100F240A3 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7210122BE5B62100F240A3 /* MainCell.swift */; };
+		BD7210152BE5B64800F240A3 /* CountryVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7210142BE5B64800F240A3 /* CountryVc.swift */; };
+		BD9726B12BE555990022C3FE /* SignUpVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9726B02BE555990022C3FE /* SignUpVc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +54,9 @@
 		BD01A57D2BE428F30045DE4E /* ExploreWorld_eSIMUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreWorld_eSIMUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		BD01A58D2BE429A00045DE4E /* LoginVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVc.swift; sourceTree = "<group>"; };
 		BD01A58F2BE430900045DE4E /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		BD01A5912BE441D80045DE4E /* SignUpVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVc.swift; sourceTree = "<group>"; };
+		BD7210122BE5B62100F240A3 /* MainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		BD7210142BE5B64800F240A3 /* CountryVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryVc.swift; sourceTree = "<group>"; };
+		BD9726B02BE555990022C3FE /* SignUpVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +148,9 @@
 			isa = PBXGroup;
 			children = (
 				BD01A58D2BE429A00045DE4E /* LoginVc.swift */,
-				BD01A5912BE441D80045DE4E /* SignUpVc.swift */,
+				BD9726B02BE555990022C3FE /* SignUpVc.swift */,
+				BD7210122BE5B62100F240A3 /* MainCell.swift */,
+				BD7210142BE5B64800F240A3 /* CountryVc.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -288,10 +294,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD7210152BE5B64800F240A3 /* CountryVc.swift in Sources */,
 				BD01A55B2BE428F10045DE4E /* AppDelegate.swift in Sources */,
 				BD01A58E2BE429A00045DE4E /* LoginVc.swift in Sources */,
+				BD7210132BE5B62100F240A3 /* MainCell.swift in Sources */,
 				BD01A55D2BE428F10045DE4E /* SceneDelegate.swift in Sources */,
-				BD01A5922BE441D80045DE4E /* SignUpVc.swift in Sources */,
+				BD9726B12BE555990022C3FE /* SignUpVc.swift in Sources */,
 				BD01A5902BE430900045DE4E /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
