@@ -610,6 +610,10 @@
                                         </tableViewCellContentView>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="cMf-ZB-8RK" id="cEB-hx-7QS"/>
+                                    <outlet property="delegate" destination="cMf-ZB-8RK" id="6tr-mB-uaH"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="eSb-tK-LMj"/>
