@@ -1,5 +1,5 @@
 //
-//  SignUpVc.swift
+//  CountryVc.swift
 //  ExploreWorld eSIM
 //
 //  Created by DREAMWORLD on 03/05/24.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SignUpVc: UIViewController {
+class CountryVc: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
