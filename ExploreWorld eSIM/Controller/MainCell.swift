@@ -7,8 +7,12 @@
 
 import UIKit
 
-class MainCell: UITableViewCell {
+class MainCell1: UITableViewCell {
 
+    @IBOutlet weak var viewCountryIcon: UIView!
+    @IBOutlet weak var lblCountryName: UILabel!
+    @IBOutlet weak var imgCountryIc: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -16,8 +20,16 @@ class MainCell: UITableViewCell {
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
+        
+        setdata()
 
         // Configure the view for the selected state
+    }
+    
+    func setdata() {
+        
+        setviewBorder(view: viewCountryIcon)
+        setRoundimgIc(ImgView: imgCountryIc)
     }
 
 }

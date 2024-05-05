@@ -9,11 +9,14 @@ import UIKit
 
 class CountryVc: UIViewController {
 
-    @IBOutlet weak var lblCOuntry: UILabel!
+
+    @IBOutlet weak var lblCountry: UILabel!
     @IBOutlet weak var btnFAQ: UIButton!
     
-    let arrname = ["United States","Switzerland","Spain","Poland","Ireland","Greece","Finland"]
-    let arrimage = ["Ic_Unitedstates","Ic_Switzerland","Ic_Spain","Ic_Spain","Ic_Ireland","Ic_Greece","Ic_Finland"]
+    let arrTableCellName = ["United States","United Kingdom","United Arab Emirates","Switzerland","Spain","Poland","Ireland","Greece","Finland","Turkey"]
+    let arrTableCellImage = ["Ic_Unitedstates","Ic_UK","Ic_Uae","Ic_Switzerland","Ic_Spain","Ic_Poland","Ic_Ireland","Ic_Greece","Ic_Finland","Ic_Turkey"]
+    let arrCollectionCountryName = ["United States","United Kingdom","United Arab Emirates"]
+    let arrCollectionCountryFlag = ["Flag_Usa","Flag_Uk","Flag_Uae"]
     
     
     override func viewDidLoad() {
@@ -27,7 +30,7 @@ class CountryVc: UIViewController {
     
     func setdata() {
         setbtnDesign(btn: btnFAQ)
-        setlblDesign(lbl: lblCOuntry)
+        setlblDesign(lbl: lblCountry)
     }
     
 
@@ -39,13 +42,32 @@ extension CountryVc : UITableViewDelegate{
 
 extension CountryVc : UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return arrname.count
+        return arrTableCellName.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MainCell", for: indexPath) as! MainCell
-        cell.lblName.text = self.arrname[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MainCell1", for: indexPath) as! MainCell1
+        cell.lblCountryName.text = self.arrTableCellName[indexPath.row]
+        cell.imgCountryIc.image = UIImage(named: self.arrTableCellImage[indexPath.row])
         return cell
     }
+}
+
+extension CountryVc : UICollectionViewDelegate {
+    
+}
+extension CountryVc : UICollectionViewDataSource {
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return arrCollectionCountryName.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let CollectionCell = collectionView.dequeueReusableCell(withReuseIdentifier: "PopCountryCollectionCell", for: indexPath) as! PopCountryCollectionCell
+        CollectionCell.imgCountryCollection.image = UIImage(named: self.arrCollectionCountryFlag[indexPath.row])
+        CollectionCell.lblCountryNameCollection.text = self.arrCollectionCountryName[indexPath.row]
+        return CollectionCell
+    }
+    
+    
 }
 

@@ -62,9 +62,9 @@ class SignUpVc: UIViewController {
     }
     func setdata() {
         
-        settxtBorder(txt: txtName)
-        settxtBorder(txt: txtPass)
-        settxtBorder(txt: txtNumber)
+        settxtBorder(txt: txtPass, borderWidth: 1, borderColor: UIColor(named: "BorderColour"), CornerRadius: txtPass.frame.height/2)
+        settxtBorder(txt: txtName, borderWidth: 1, borderColor: UIColor(named: "BorderColour"), CornerRadius: txtName.frame.height/2)
+        settxtBorder(txt: txtNumber, borderWidth: 1, borderColor: UIColor(named: "BorderColour"), CornerRadius: txtNumber.frame.height/2)
         setbtnDesign(btn: btnLogin)
         setRoundViewBtn(viewbtn: viewbtnFb)
         setRoundViewBtn(viewbtn: viewbtnApple)

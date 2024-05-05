@@ -100,8 +100,9 @@ class LoginVc: UIViewController {
         
     }
     func setData(){
-        settxtBorder(txt: txtLogin)
-        settxtBorder(txt: txtPass)
+        
+        settxtBorder(txt: txtPass, borderWidth: 1, borderColor: UIColor(named: "BorderColour"), CornerRadius: txtPass.frame.height/2)
+        settxtBorder(txt: txtLogin, borderWidth: 1, borderColor: UIColor(named: "BorderColour"), CornerRadius: txtLogin.frame.height/2)
         setbtnDesign(btn: btnLogin)
         setRoundViewBtn(viewbtn: viewbtnFB)
         setRoundViewBtn(viewbtn: viewbtnGoogle)

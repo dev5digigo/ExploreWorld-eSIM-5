@@ -10,10 +10,10 @@ import UIKit
 
 
 extension UIViewController{
-    func settxtBorder(txt: UITextField){
-        txt.layer.borderWidth = 1
-        txt.layer.borderColor = UIColor.borderColour.cgColor
-        txt.layer.cornerRadius = txt.frame.height/2
+    func settxtBorder(txt: UITextField, borderWidth: CGFloat, borderColor: UIColor?, CornerRadius: CGFloat){
+        txt.layer.borderWidth = borderWidth
+        txt.layer.borderColor = borderColor?.cgColor
+        txt.layer.cornerRadius = CornerRadius
         txt.clipsToBounds = true
        
     }
@@ -46,8 +46,28 @@ extension UIViewController{
         
 
     }
+    
 
 }
+
+extension UITableViewCell {
+    
+    func setviewBorder(view: UIView){
+        view.backgroundColor = UIColor.bgColourGray
+        view.layer.cornerRadius = view.frame.height/2
+        view.clipsToBounds = true
+        
+    }
+    
+    func setRoundimgIc(ImgView: UIImageView){
+        ImgView.layer.cornerRadius = ImgView.frame.height/2
+        ImgView.clipsToBounds = true
+        
+    }
+    
+}
+
+
 extension UITextField{
 
 //    func setLeftImage(imageName:String) {
