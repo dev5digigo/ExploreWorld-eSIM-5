@@ -5,6 +5,7 @@ target 'ExploreWorld eSIM' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
+<<<<<<< HEAD
 
   # Pods for ExploreWorld eSIM
    pod 'Alamofire'
@@ -13,6 +14,13 @@ target 'ExploreWorld eSIM' do
   target 'ExploreWorld eSIMTests' do
     inherit! :search_paths
      
+=======
+  # Pods for ExploreWorld eSIM
+
+  target 'ExploreWorld eSIMTests' do
+    inherit! :search_paths
+    pod 'Alamofire'
+>>>>>>> origin/main
   end
 
   target 'ExploreWorld eSIMUITests' do

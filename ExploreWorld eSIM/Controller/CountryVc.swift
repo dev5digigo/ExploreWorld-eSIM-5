@@ -38,7 +38,11 @@ class CountryVc: UIViewController {
     }
     
     func setdata() {
+<<<<<<< HEAD
         setbtnDesign(btn: btnFAQ, cornerRadius: 10)
+=======
+        setbtnDesign(btn: btnFAQ, cornerRadius: 1)
+>>>>>>> origin/main
         setlblDesign(lbl: lblCountry)
     }
     

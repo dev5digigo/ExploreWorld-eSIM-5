@@ -13,6 +13,7 @@ class CountryDetailVc: UIViewController {
     @IBOutlet weak var btnValedity: UIButton!
     @IBOutlet weak var btnDataPlan: UIButton!
     @IBOutlet weak var btnCountry: UIButton!
+<<<<<<< HEAD
     @IBOutlet weak var tblNoti: UITableView!
     
 //    let arrImgCountry = ["Ic_Georgia","Ic_Armenia","Ic_Kazakhstan","Ic_UK"]
@@ -26,12 +27,31 @@ class CountryDetailVc: UIViewController {
     
     
     var arrNoti =  [NotificationData]()
+=======
+    
+    let arrImgCountry = ["Ic_Georgia","Ic_Armenia","Ic_Kazakhstan","Ic_UK"]
+    let arrCountryName = ["Georgia","Armenia","Kazakhstan","United Kingdom"]
+    let arrPrice = ["$10","$20","$40","$50"]
+    let arrCountryCount = ["1 Country","1 Country","1 Country","1 Country"]
+    let arrGB = ["3 GB","10 GB","18 GB","30 GB"]
+    let arrMinutes = ["100 min","300 min","500 min","1000 min"]
+    let arrSMS = ["50 sms","150 sms","250 sms","100 sms"]
+    let arrDays = ["7 Days","1 month","2 month","1 month"]
+    
+    
+    
+>>>>>>> origin/main
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+<<<<<<< HEAD
         getList()
     
+=======
+        
+        callAPI()
+>>>>>>> origin/main
         setdata()
 
         // Do any additional setup after loading the view.
@@ -49,6 +69,7 @@ class CountryDetailVc: UIViewController {
     
 }
 
+<<<<<<< HEAD
 extension CountryDetailVc{
     func getList() {
         let url = "http://145.239.253.21/pamar/easysim_admin/index.php/Notification/getnotification"
@@ -87,17 +108,24 @@ extension CountryDetailVc{
         
 
 
+=======
+>>>>>>> origin/main
 extension CountryDetailVc: UITableViewDelegate {
     
 }
 
 extension CountryDetailVc: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+<<<<<<< HEAD
         return self.arrNoti.count//arrCountryName.count
+=======
+        return arrCountryName.count
+>>>>>>> origin/main
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "MainCell2", for: indexPath) as! MainCell2
+<<<<<<< HEAD
         let data = self.arrNoti[indexPath.row]
         
        // cell.imgCountryIc.image =  UIImage(named: self.arrImgCountry[indexPath.row])
@@ -108,6 +136,16 @@ extension CountryDetailVc: UITableViewDataSource {
 //        cell.lblDays.text = self.arrDays[indexPath.row]
 //        cell.lblSMS.text = self.arrSMS[indexPath.row]
 //        cell.lblGB.text = self.arrGB[indexPath.row]
+=======
+        cell.imgCountryIc.image = UIImage(named: self.arrImgCountry[indexPath.row])
+        cell.lblCountryName.text = self.arrCountryName[indexPath.row]
+        cell.lblCountryCount.text = self.arrCountryCount[indexPath.row]
+        cell.lblMinute.text = self.arrMinutes[indexPath.row]
+        cell.lblPrice.text = self.arrPrice[indexPath.row]
+        cell.lblDays.text = self.arrDays[indexPath.row]
+        cell.lblSMS.text = self.arrSMS[indexPath.row]
+        cell.lblGB.text = self.arrGB[indexPath.row]
+>>>>>>> origin/main
         return cell
     }
     

@@ -72,6 +72,7 @@ class MainCell2: UITableViewCell {
         setViewDegin(view: viewTablecell, cornerRadius: 25)
     }
 }
+<<<<<<< HEAD
 
 class Maincell3: UITableViewCell {
     
@@ -90,3 +91,5 @@ class Maincell3: UITableViewCell {
         super.setSelected(selected, animated: animated)
     }
 }
+=======
+>>>>>>> origin/main

@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< HEAD
 		061E4567226E23A49E96BA75 /* Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E391C897494CFEFFAF4D7FA5 /* Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework */; };
 		4BA8E53744059C6F7480CA6F /* Pods_ExploreWorld_eSIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F1DB2D388F990FB72168CF8 /* Pods_ExploreWorld_eSIM.framework */; };
 		A2C5B1FD44A503BA754071E1 /* Pods_ExploreWorld_eSIMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7F4AF9DC3C9456FA6E0BBFC /* Pods_ExploreWorld_eSIMTests.framework */; };
+=======
+		43D766DD4497050767ACE1E7 /* Pods_ExploreWorld_eSIMTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C065E9B3CD3D8D755097B7A5 /* Pods_ExploreWorld_eSIMTests.framework */; };
+		64B3D5EF00CD2C15648B7F5F /* Pods_ExploreWorld_eSIM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88E2FA4D18CD7EB3DEDF760 /* Pods_ExploreWorld_eSIM.framework */; };
+		820736000AE7007B90295C2A /* Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4397F94DAB9601E763841508 /* Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework */; };
+>>>>>>> origin/main
 		BD01A55B2BE428F10045DE4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01A55A2BE428F10045DE4E /* AppDelegate.swift */; };
 		BD01A55D2BE428F10045DE4E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD01A55C2BE428F10045DE4E /* SceneDelegate.swift */; };
 		BD01A5622BE428F10045DE4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD01A5602BE428F10045DE4E /* Main.storyboard */; };
@@ -29,6 +35,11 @@
 		BD73DC952BE6F84700D5713E /* CountryDetailVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD73DC942BE6F84700D5713E /* CountryDetailVc.swift */; };
 		BD9726B12BE555990022C3FE /* SignUpVc.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD9726B02BE555990022C3FE /* SignUpVc.swift */; };
 		BDB84FAD2BEA45D900E512BA /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB84FAC2BEA45D900E512BA /* API.swift */; };
+<<<<<<< HEAD
+=======
+		BDDD453A2BEA530100E4570E /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = BDDD45392BEA530100E4570E /* Alamofire */; };
+		BDDD453C2BEA530100E4570E /* AlamofireDynamic in Frameworks */ = {isa = PBXBuildFile; productRef = BDDD453B2BEA530100E4570E /* AlamofireDynamic */; };
+>>>>>>> origin/main
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,11 +60,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< HEAD
 		001696048E68DE992AB496B9 /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.release.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.release.xcconfig"; sourceTree = "<group>"; };
 		07A2F98C3DF99436D2A3EF14 /* Pods-ExploreWorld eSIMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIMTests.release.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIMTests/Pods-ExploreWorld eSIMTests.release.xcconfig"; sourceTree = "<group>"; };
 		0CEDB9A79D80C0A95BA2F7DF /* Pods-ExploreWorld eSIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIM.release.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIM/Pods-ExploreWorld eSIM.release.xcconfig"; sourceTree = "<group>"; };
 		4F1DB2D388F990FB72168CF8 /* Pods_ExploreWorld_eSIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExploreWorld_eSIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF91605FEBCD81318457501 /* Pods-ExploreWorld eSIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIM.debug.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIM/Pods-ExploreWorld eSIM.debug.xcconfig"; sourceTree = "<group>"; };
+=======
+		4397F94DAB9601E763841508 /* Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AF90C6ACFBA3C28C42CC01A /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.debug.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		739744224EF39777477CC59C /* Pods-ExploreWorld eSIMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIMTests.release.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIMTests/Pods-ExploreWorld eSIMTests.release.xcconfig"; sourceTree = "<group>"; };
+		98291D280A6981C24C5D9F06 /* Pods-ExploreWorld eSIM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIM.release.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIM/Pods-ExploreWorld eSIM.release.xcconfig"; sourceTree = "<group>"; };
+		A13D07270516EFC9062295F4 /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.release.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.release.xcconfig"; sourceTree = "<group>"; };
+>>>>>>> origin/main
 		BD01A5572BE428F10045DE4E /* ExploreWorld eSIM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ExploreWorld eSIM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD01A55A2BE428F10045DE4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD01A55C2BE428F10045DE4E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,10 +96,17 @@
 		BD73DC942BE6F84700D5713E /* CountryDetailVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailVc.swift; sourceTree = "<group>"; };
 		BD9726B02BE555990022C3FE /* SignUpVc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVc.swift; sourceTree = "<group>"; };
 		BDB84FAC2BEA45D900E512BA /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		CC487DE613735BE2075CC776 /* Pods-ExploreWorld eSIMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIMTests.debug.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIMTests/Pods-ExploreWorld eSIMTests.debug.xcconfig"; sourceTree = "<group>"; };
 		CCD73628908AB94213901671 /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.debug.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests/Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E391C897494CFEFFAF4D7FA5 /* Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F4AF9DC3C9456FA6E0BBFC /* Pods_ExploreWorld_eSIMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExploreWorld_eSIMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+=======
+		C065E9B3CD3D8D755097B7A5 /* Pods_ExploreWorld_eSIMTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExploreWorld_eSIMTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D88E2FA4D18CD7EB3DEDF760 /* Pods_ExploreWorld_eSIM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExploreWorld_eSIM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9067339289E6B5DBFE10981 /* Pods-ExploreWorld eSIMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIMTests.debug.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIMTests/Pods-ExploreWorld eSIMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFE1CFA68104F2353248C291 /* Pods-ExploreWorld eSIM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExploreWorld eSIM.debug.xcconfig"; path = "Target Support Files/Pods-ExploreWorld eSIM/Pods-ExploreWorld eSIM.debug.xcconfig"; sourceTree = "<group>"; };
+>>>>>>> origin/main
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +114,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				4BA8E53744059C6F7480CA6F /* Pods_ExploreWorld_eSIM.framework in Frameworks */,
+=======
+				64B3D5EF00CD2C15648B7F5F /* Pods_ExploreWorld_eSIM.framework in Frameworks */,
+				BDDD453C2BEA530100E4570E /* AlamofireDynamic in Frameworks */,
+				BDDD453A2BEA530100E4570E /* Alamofire in Frameworks */,
+>>>>>>> origin/main
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,7 +128,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				A2C5B1FD44A503BA754071E1 /* Pods_ExploreWorld_eSIMTests.framework in Frameworks */,
+=======
+				43D766DD4497050767ACE1E7 /* Pods_ExploreWorld_eSIMTests.framework in Frameworks */,
+>>>>>>> origin/main
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,19 +140,32 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+<<<<<<< HEAD
 				061E4567226E23A49E96BA75 /* Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework in Frameworks */,
+=======
+				820736000AE7007B90295C2A /* Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework in Frameworks */,
+>>>>>>> origin/main
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< HEAD
 		34926372668487F0E213550E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				4F1DB2D388F990FB72168CF8 /* Pods_ExploreWorld_eSIM.framework */,
 				E391C897494CFEFFAF4D7FA5 /* Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework */,
 				F7F4AF9DC3C9456FA6E0BBFC /* Pods_ExploreWorld_eSIMTests.framework */,
+=======
+		03460CDE65BE83B1427830F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D88E2FA4D18CD7EB3DEDF760 /* Pods_ExploreWorld_eSIM.framework */,
+				4397F94DAB9601E763841508 /* Pods_ExploreWorld_eSIM_ExploreWorld_eSIMUITests.framework */,
+				C065E9B3CD3D8D755097B7A5 /* Pods_ExploreWorld_eSIMTests.framework */,
+>>>>>>> origin/main
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,12 +173,21 @@
 		ACB754A7B5EA5974BC6D2575 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				6DF91605FEBCD81318457501 /* Pods-ExploreWorld eSIM.debug.xcconfig */,
 				0CEDB9A79D80C0A95BA2F7DF /* Pods-ExploreWorld eSIM.release.xcconfig */,
 				CCD73628908AB94213901671 /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.debug.xcconfig */,
 				001696048E68DE992AB496B9 /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.release.xcconfig */,
 				CC487DE613735BE2075CC776 /* Pods-ExploreWorld eSIMTests.debug.xcconfig */,
 				07A2F98C3DF99436D2A3EF14 /* Pods-ExploreWorld eSIMTests.release.xcconfig */,
+=======
+				EFE1CFA68104F2353248C291 /* Pods-ExploreWorld eSIM.debug.xcconfig */,
+				98291D280A6981C24C5D9F06 /* Pods-ExploreWorld eSIM.release.xcconfig */,
+				6AF90C6ACFBA3C28C42CC01A /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.debug.xcconfig */,
+				A13D07270516EFC9062295F4 /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.release.xcconfig */,
+				D9067339289E6B5DBFE10981 /* Pods-ExploreWorld eSIMTests.debug.xcconfig */,
+				739744224EF39777477CC59C /* Pods-ExploreWorld eSIMTests.release.xcconfig */,
+>>>>>>> origin/main
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -142,7 +200,11 @@
 				BD01A57A2BE428F30045DE4E /* ExploreWorld eSIMUITests */,
 				BD01A5582BE428F10045DE4E /* Products */,
 				ACB754A7B5EA5974BC6D2575 /* Pods */,
+<<<<<<< HEAD
 				34926372668487F0E213550E /* Frameworks */,
+=======
+				03460CDE65BE83B1427830F0 /* Frameworks */,
+>>>>>>> origin/main
 			);
 			sourceTree = "<group>";
 		};
@@ -236,7 +298,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD01A5812BE428F30045DE4E /* Build configuration list for PBXNativeTarget "ExploreWorld eSIM" */;
 			buildPhases = (
+<<<<<<< HEAD
 				B17B5664212438D3598A301B /* [CP] Check Pods Manifest.lock */,
+=======
+				9B5CA097DBECA0433CD9C8A3 /* [CP] Check Pods Manifest.lock */,
+>>>>>>> origin/main
 				BD01A5532BE428F10045DE4E /* Sources */,
 				BD01A5542BE428F10045DE4E /* Frameworks */,
 				BD01A5552BE428F10045DE4E /* Resources */,
@@ -247,6 +313,10 @@
 			dependencies = (
 			);
 			name = "ExploreWorld eSIM";
+			packageProductDependencies = (
+				BDDD45392BEA530100E4570E /* Alamofire */,
+				BDDD453B2BEA530100E4570E /* AlamofireDynamic */,
+			);
 			productName = "ExploreWorld eSIM";
 			productReference = BD01A5572BE428F10045DE4E /* ExploreWorld eSIM.app */;
 			productType = "com.apple.product-type.application";
@@ -255,10 +325,15 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD01A5842BE428F30045DE4E /* Build configuration list for PBXNativeTarget "ExploreWorld eSIMTests" */;
 			buildPhases = (
+<<<<<<< HEAD
 				26742C462C494984D4513697 /* [CP] Check Pods Manifest.lock */,
+=======
+				286DBCD508F7F764516EF1BA /* [CP] Check Pods Manifest.lock */,
+>>>>>>> origin/main
 				BD01A5692BE428F30045DE4E /* Sources */,
 				BD01A56A2BE428F30045DE4E /* Frameworks */,
 				BD01A56B2BE428F30045DE4E /* Resources */,
+				BA40CD30D03696F661816E8D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -274,7 +349,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BD01A5872BE428F30045DE4E /* Build configuration list for PBXNativeTarget "ExploreWorld eSIMUITests" */;
 			buildPhases = (
+<<<<<<< HEAD
 				69D4219528199BDC8F735A7E /* [CP] Check Pods Manifest.lock */,
+=======
+				7FF2ABD62EA8D3F3495314F3 /* [CP] Check Pods Manifest.lock */,
+>>>>>>> origin/main
 				BD01A5732BE428F30045DE4E /* Sources */,
 				BD01A5742BE428F30045DE4E /* Frameworks */,
 				BD01A5752BE428F30045DE4E /* Resources */,
@@ -322,6 +401,9 @@
 				Base,
 			);
 			mainGroup = BD01A54E2BE428F10045DE4E;
+			packageReferences = (
+				BDDD45382BEA52E600E4570E /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = BD01A5582BE428F10045DE4E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -361,7 +443,11 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+<<<<<<< HEAD
 		26742C462C494984D4513697 /* [CP] Check Pods Manifest.lock */ = {
+=======
+		286DBCD508F7F764516EF1BA /* [CP] Check Pods Manifest.lock */ = {
+>>>>>>> origin/main
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -383,7 +469,11 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+<<<<<<< HEAD
 		69D4219528199BDC8F735A7E /* [CP] Check Pods Manifest.lock */ = {
+=======
+		7FF2ABD62EA8D3F3495314F3 /* [CP] Check Pods Manifest.lock */ = {
+>>>>>>> origin/main
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -405,6 +495,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+<<<<<<< HEAD
 		A94834A1CEDCC760A0C867DE /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -423,6 +514,9 @@
 			showEnvVarsInLog = 0;
 		};
 		B17B5664212438D3598A301B /* [CP] Check Pods Manifest.lock */ = {
+=======
+		9B5CA097DBECA0433CD9C8A3 /* [CP] Check Pods Manifest.lock */ = {
+>>>>>>> origin/main
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -444,12 +538,17 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+<<<<<<< HEAD
 		F97E69D0ED86EB2D22EB2CC1 /* [CP] Embed Pods Frameworks */ = {
+=======
+		BA40CD30D03696F661816E8D /* [CP] Embed Pods Frameworks */ = {
+>>>>>>> origin/main
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputFileListPaths = (
+<<<<<<< HEAD
 				"${PODS_ROOT}/Target Support Files/Pods-ExploreWorld eSIM/Pods-ExploreWorld eSIM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -459,6 +558,17 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExploreWorld eSIM/Pods-ExploreWorld eSIM-frameworks.sh\"\n";
+=======
+				"${PODS_ROOT}/Target Support Files/Pods-ExploreWorld eSIMTests/Pods-ExploreWorld eSIMTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ExploreWorld eSIMTests/Pods-ExploreWorld eSIMTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ExploreWorld eSIMTests/Pods-ExploreWorld eSIMTests-frameworks.sh\"\n";
+>>>>>>> origin/main
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -657,7 +767,11 @@
 		};
 		BD01A5822BE428F30045DE4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 6DF91605FEBCD81318457501 /* Pods-ExploreWorld eSIM.debug.xcconfig */;
+=======
+			baseConfigurationReference = EFE1CFA68104F2353248C291 /* Pods-ExploreWorld eSIM.debug.xcconfig */;
+>>>>>>> origin/main
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -687,7 +801,11 @@
 		};
 		BD01A5832BE428F30045DE4E /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 0CEDB9A79D80C0A95BA2F7DF /* Pods-ExploreWorld eSIM.release.xcconfig */;
+=======
+			baseConfigurationReference = 98291D280A6981C24C5D9F06 /* Pods-ExploreWorld eSIM.release.xcconfig */;
+>>>>>>> origin/main
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -717,7 +835,11 @@
 		};
 		BD01A5852BE428F30045DE4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = CC487DE613735BE2075CC776 /* Pods-ExploreWorld eSIMTests.debug.xcconfig */;
+=======
+			baseConfigurationReference = D9067339289E6B5DBFE10981 /* Pods-ExploreWorld eSIMTests.debug.xcconfig */;
+>>>>>>> origin/main
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -737,7 +859,11 @@
 		};
 		BD01A5862BE428F30045DE4E /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 07A2F98C3DF99436D2A3EF14 /* Pods-ExploreWorld eSIMTests.release.xcconfig */;
+=======
+			baseConfigurationReference = 739744224EF39777477CC59C /* Pods-ExploreWorld eSIMTests.release.xcconfig */;
+>>>>>>> origin/main
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -757,7 +883,11 @@
 		};
 		BD01A5882BE428F30045DE4E /* Debug */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = CCD73628908AB94213901671 /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.debug.xcconfig */;
+=======
+			baseConfigurationReference = 6AF90C6ACFBA3C28C42CC01A /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.debug.xcconfig */;
+>>>>>>> origin/main
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -775,7 +905,11 @@
 		};
 		BD01A5892BE428F30045DE4E /* Release */ = {
 			isa = XCBuildConfiguration;
+<<<<<<< HEAD
 			baseConfigurationReference = 001696048E68DE992AB496B9 /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.release.xcconfig */;
+=======
+			baseConfigurationReference = A13D07270516EFC9062295F4 /* Pods-ExploreWorld eSIM-ExploreWorld eSIMUITests.release.xcconfig */;
+>>>>>>> origin/main
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -831,6 +965,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BDDD45382BEA52E600E4570E /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BDDD45392BEA530100E4570E /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDDD45382BEA52E600E4570E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		BDDD453B2BEA530100E4570E /* AlamofireDynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BDDD45382BEA52E600E4570E /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = AlamofireDynamic;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BD01A54F2BE428F10045DE4E /* Project object */;
 }
