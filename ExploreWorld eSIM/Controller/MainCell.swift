@@ -72,3 +72,21 @@ class MainCell2: UITableViewCell {
         setViewDegin(view: viewTablecell, cornerRadius: 25)
     }
 }
+
+class Maincell3: UITableViewCell {
+    
+    @IBOutlet weak var lblPortalPercentage: UILabel!
+    @IBOutlet weak var lblCreatedDate: UILabel!
+    @IBOutlet weak var lblPortalCharges: UILabel!
+    @IBOutlet weak var lblPortalName: UILabel!
+    @IBOutlet weak var lblId: UILabel!
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+    }
+    
+    override func setSelected(_ selected: Bool, animated: Bool) {
+        super.setSelected(selected, animated: animated)
+    }
+}

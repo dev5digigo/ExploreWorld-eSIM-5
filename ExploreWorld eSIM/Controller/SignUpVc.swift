@@ -47,6 +47,27 @@ class SignUpVc: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func btnPressedSignupNumPassValidation(_ sender: Any) {
+        guard let number = txtNumber.text, !number.isEmpty else {
+            showAlert(message: "Please enter your number")
+            return
+        }
+        
+        guard let password = txtPass.text, !password.isEmpty else {
+            showAlert(message: "Please enter your password")
+            return
+        }
+        
+        if !isValidMobileNumber(mobileNumber: number) {
+            showAlert(message: "please enter valid Phone Number")
+        }
+        
+        if !isValidPassword(password: password) {
+            showAlert(message: "Please enter a valid password. It should contain at least 8 characters, including at least one uppercase letter, one lowercase letter, one digit, and one special character.")
+            return
+        }
+        
+    }
     @IBAction func btnHidePasswordAction(_ sender: Any) {
         if flagHide == true 
         {

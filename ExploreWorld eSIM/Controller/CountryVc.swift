@@ -13,6 +13,8 @@ class CountryVc: UIViewController {
     @IBOutlet weak var lblCountry: UILabel!
     @IBOutlet weak var btnFAQ: UIButton!
     
+    var loginflag = true
+    
     let arrTableCellName = ["United States","United Kingdom","United Arab Emirates","Switzerland","Spain","Poland","Ireland","Greece","Finland","Turkey"]
     let arrTableCellImage = ["Ic_Unitedstates","Ic_UK","Ic_Uae","Ic_Switzerland","Ic_Spain","Ic_Poland","Ic_Ireland","Ic_Greece","Ic_Finland","Ic_Turkey"]
     let arrCollectionCountryName = ["United States","United Kingdom","United Arab Emirates"]
@@ -28,8 +30,15 @@ class CountryVc: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    @IBAction func btnPressedLogout(_ sender: Any) {
+        // Clear isLoggedIn key
+        UserDefaults.standard.set(false, forKey: "isLoggedIn")
+        loginflag = false
+        navigationController?.popToRootViewController(animated: true)
+    }
+    
     func setdata() {
-        setbtnDesign(btn: btnFAQ, cornerRadius: 1)
+        setbtnDesign(btn: btnFAQ, cornerRadius: 10)
         setlblDesign(lbl: lblCountry)
     }
     

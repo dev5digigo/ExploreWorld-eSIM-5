@@ -5,11 +5,14 @@ target 'ExploreWorld eSIM' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
+
   # Pods for ExploreWorld eSIM
+   pod 'Alamofire'
+
 
   target 'ExploreWorld eSIMTests' do
     inherit! :search_paths
-    pod 'Alamofire'
+     
   end
 
   target 'ExploreWorld eSIMUITests' do
