@@ -97,3 +97,60 @@ extension GetApiVc: UITableViewDataSource {
     
 }
 
+//import UIKit
+//import Alamofire
+//
+//class GetApiVc: UIViewController {
+//
+//    @IBOutlet weak var tblGetApi: UITableView!
+//
+//    var arrPaymentData: [PaymentData]?
+//
+//    override func viewDidLoad() {
+//        super.viewDidLoad()
+//        // Call the function to fetch data from the API
+//        paymentData()
+//    }
+//
+//}
+//
+//extension GetApiVc {
+//    func paymentData() {
+//        let url = "https://allyouneeds.online/khizarcrm/getpaymentportaldata.php"
+//
+//        AF.request(url, method: .get)
+//            .validate()
+//            .responseDecodable(of: GetPaymentDataModel.self) { response in
+//                switch response.result {
+//                case .success(let getPaymentDataModel):
+//                    print("Message: \(String(describing: getPaymentDataModel.msg))")
+//                    print("Code: \(String(describing: getPaymentDataModel.code))")
+//
+//                    // Update the data array
+//                    self.arrPaymentData = getPaymentDataModel.data
+//                    self.tblGetApi.reloadData()
+//
+//                case .failure(let error):
+//                    print("Error: \(error.localizedDescription)")
+//                }
+//            }
+//    }
+//}
+//
+//extension GetApiVc: UITableViewDataSource {
+//    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        return arrPaymentData?.count ?? 0
+//    }
+//
+//    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+//        let cell = tableView.dequeueReusableCell(withIdentifier: "Maincell3", for: indexPath) as! Maincell3
+//        if let data = arrPaymentData?[indexPath.row] {
+//            cell.lblId.text = data.id
+//            cell.lblPortalName.text = data.portalName
+//            cell.lblCreatedDate.text = data.createdDate
+//            cell.lblPortalCharges.text = data.portalCharges
+//            cell.lblPortalPercentage.text = data.portalPercentage
+//        }
+//        return cell
+//    }
+//}

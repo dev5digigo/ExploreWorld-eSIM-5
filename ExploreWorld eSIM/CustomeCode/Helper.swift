@@ -16,31 +16,14 @@ extension UIViewController{
         txt.layer.cornerRadius = cornerRadius
         txt.clipsToBounds = true
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> origin/main
     func setlblDesign(lbl: UILabel) {
         lbl.layer.cornerRadius = lbl.frame.height/2
         lbl.clipsToBounds = true
         lbl.layer.borderWidth = 2
         lbl.layer.borderColor = UIColor.borderColour2.cgColor
     }
-    
-<<<<<<< HEAD
-    //    func setbtnDesign(btn: UIButton) {
-    //        btn.layer.cornerRadius = btn.frame.height/2
-    //        btn.clipsToBounds = true
-    //
-    //    }
-=======
-//    func setbtnDesign(btn: UIButton) {
-//        btn.layer.cornerRadius = btn.frame.height/2
-//        btn.clipsToBounds = true
-//       
-//    }
->>>>>>> origin/main
+
     
     func setbtnDesign(btn: UIButton, borderWidth: CGFloat = 0, borderColor: UIColor? = nil, cornerRadius: CGFloat) {
         btn.layer.borderWidth = borderWidth
@@ -118,11 +101,7 @@ extension UITableViewCell {
         view.layer.cornerRadius = cornerRadius
         view.clipsToBounds = true
     }
-<<<<<<< HEAD
-    
-=======
 
->>>>>>> origin/main
     
 }
 

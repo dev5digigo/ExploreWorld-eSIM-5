@@ -137,17 +137,6 @@ class LoginVc: UIViewController {
             countryVC.loginflag = loginflag
             navigationController?.pushViewController(countryVC, animated: true)
         
-<<<<<<< HEAD
-=======
-        settxtBorder(txt: txtPass, borderWidth: 1, borderColor: UIColor(named: "BorderColour"), cornerRadius: txtPass.frame.height/2)
-        settxtBorder(txt: txtLogin, borderWidth: 1, borderColor: UIColor(named: "BorderColour"), cornerRadius: txtLogin.frame.height/2)
-        setbtnDesign(btn: btnLogin, cornerRadius: 1)
-        setRoundViewBtn(viewbtn: viewbtnFB)
-        setRoundViewBtn(viewbtn: viewbtnGoogle)
-        setRoundViewBtn(viewbtn: viewbtnApple)
-       
-//    
->>>>>>> origin/main
     }
         
         func setData(){
